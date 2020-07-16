@@ -1,0 +1,1242 @@
+{
+    "_declaration": {
+        "_attributes": {
+            "version": "1.0",
+            "encoding": "UTF-8"
+        }
+    },
+    "definitions": {
+        "_attributes": {
+            "xmlns": "http://www.omg.org/spec/BPMN/20100524/MODEL",
+            "xmlns:bpmndi": "http://www.omg.org/spec/BPMN/20100524/DI",
+            "xmlns:omgdc": "http://www.omg.org/spec/DD/20100524/DC",
+            "xmlns:omgdi": "http://www.omg.org/spec/DD/20100524/DI",
+            "xmlns:signavio": "http://www.signavio.com",
+            "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "exporter": "Signavio Process Editor, http://www.signavio.com",
+            "exporterVersion": "12.11.2",
+            "expressionLanguage": "http://www.w3.org/TR/XPath",
+            "id": "sid-2743c040-96cd-4ed2-96a8-a05d67fd0848",
+            "targetNamespace": "http://www.signavio.com",
+            "typeLanguage": "http://www.w3.org/2001/XMLSchema",
+            "xsi:schemaLocation": "http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd"
+        },
+        "process": {
+            "_attributes": {
+                "id": "sid-cf544312-9f6a-4305-9d1e-7b3431ba1d39",
+                "isClosed": "false",
+                "isExecutable": "false",
+                "processType": "None"
+            },
+            "extensionElements": {
+                "signavio:signavioDiagramMetaData": [
+                    {
+                        "_attributes": {
+                            "metaKey": "businessunit",
+                            "metaValue": ""
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "metaKey": "maximumduration",
+                            "metaValue": ""
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "metaKey": "iso9000ff",
+                            "metaValue": ""
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "metaKey": "minimumduration",
+                            "metaValue": ""
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "metaKey": "processowner",
+                            "metaValue": ""
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "metaKey": "processgoal",
+                            "metaValue": ""
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "metaKey": "soxrelevant",
+                            "metaValue": ""
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "metaKey": "revisionid",
+                            "metaValue": "831466f65ea04c9b8d46d871ca8e1f35"
+                        }
+                    }
+                ]
+            },
+            "startEvent": {
+                "_attributes": {
+                    "id": "sid-53F5DB0B-2AE9-4DEB-B6DC-3242ED1EE62D"
+                },
+                "extensionElements": {
+                    "signavio:signavioMetaData": [
+                        {
+                            "_attributes": {
+                                "metaKey": "bgcolor",
+                                "metaValue": "#ffffff"
+                            }
+                        },
+                        {
+                            "_attributes": {
+                                "metaKey": "bordercolor",
+                                "metaValue": "#000000"
+                            }
+                        }
+                    ]
+                },
+                "outgoing": {
+                    "_text": "sid-65C0CB57-DF10-4EB2-8AE4-18B5C36A5B0C"
+                }
+            },
+            "task": [
+                {
+                    "_attributes": {
+                        "completionQuantity": "1",
+                        "id": "sid-4CEA894F-3D25-4345-8985-398CE51CE768",
+                        "isForCompensation": "false",
+                        "name": "Maschine auschalten",
+                        "startQuantity": "1"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": [
+                            {
+                                "_attributes": {
+                                    "metaKey": "bgcolor",
+                                    "metaValue": "#ffffcc"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "bordercolor",
+                                    "metaValue": "#000000"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "maximumduration",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "minimumduration",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "risklevel",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "externaldocuments",
+                                    "metaValue": ""
+                                }
+                            }
+                        ]
+                    },
+                    "incoming": {
+                        "_text": "sid-65C0CB57-DF10-4EB2-8AE4-18B5C36A5B0C"
+                    },
+                    "outgoing": {
+                        "_text": "sid-CA2932E0-8B5F-45D6-8DB5-F8AF99B40489"
+                    }
+                },
+                {
+                    "_attributes": {
+                        "completionQuantity": "1",
+                        "id": "sid-C76D0479-CA9E-4702-ACD0-094039D5F414",
+                        "isForCompensation": "false",
+                        "name": "Maschine leerfahren",
+                        "startQuantity": "1"
+                    },
+                    "documentation": {
+                        "_attributes": {
+                            "id": "sid-125c5f96-57f1-4ea7-97f5-d65d432a2d5e"
+                        },
+                        "_text": "Entfernen sie alle restlichen Werkstücke\n"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": [
+                            {
+                                "_attributes": {
+                                    "metaKey": "bgcolor",
+                                    "metaValue": "#ffffcc"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "bordercolor",
+                                    "metaValue": "#000000"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "maximumduration",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "minimumduration",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "risklevel",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "externaldocuments",
+                                    "metaValue": ""
+                                }
+                            }
+                        ]
+                    },
+                    "incoming": {
+                        "_text": "sid-CA2932E0-8B5F-45D6-8DB5-F8AF99B40489"
+                    },
+                    "outgoing": {
+                        "_text": "sid-8C285D89-BFCF-4E00-8852-AB144F876382"
+                    }
+                },
+                {
+                    "_attributes": {
+                        "completionQuantity": "1",
+                        "id": "sid-F4A1F455-76A6-46CC-BDB7-775F00A4F9B4",
+                        "isForCompensation": "false",
+                        "name": "Überprüfen der Pneumatikzylinder",
+                        "startQuantity": "1"
+                    },
+                    "documentation": {
+                        "_attributes": {
+                            "id": "sid-1ba4f202-7f1f-4671-b980-9da75ebc7bce"
+                        },
+                        "_text": "Werden die Zylinder in der korrekten Zeitspanne ausgelöst.\n"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": [
+                            {
+                                "_attributes": {
+                                    "metaKey": "bgcolor",
+                                    "metaValue": "#ffffcc"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "bordercolor",
+                                    "metaValue": "#000000"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "maximumduration",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "minimumduration",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "risklevel",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "externaldocuments",
+                                    "metaValue": ""
+                                }
+                            }
+                        ]
+                    },
+                    "incoming": {
+                        "_text": "sid-80A73984-7AE0-4B5A-93D5-23B0096A851A"
+                    },
+                    "outgoing": {
+                        "_text": "sid-B6422F8F-8CD5-4D14-8337-682A1DDDDE22"
+                    }
+                },
+                {
+                    "_attributes": {
+                        "completionQuantity": "1",
+                        "id": "sid-268BD692-892A-4EFA-87E0-C25C785B020A",
+                        "isForCompensation": "false",
+                        "name": "Lichtschranken überprüfen",
+                        "startQuantity": "1"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": [
+                            {
+                                "_attributes": {
+                                    "metaKey": "bgcolor",
+                                    "metaValue": "#ffffcc"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "bordercolor",
+                                    "metaValue": "#000000"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "maximumduration",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "minimumduration",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "risklevel",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "externaldocuments",
+                                    "metaValue": ""
+                                }
+                            }
+                        ]
+                    },
+                    "incoming": {
+                        "_text": "sid-12F2A018-ED24-408B-B13C-5A8743542601"
+                    },
+                    "outgoing": {
+                        "_text": "sid-FF360ECE-BBFB-43F7-BEE8-17CF0C2AB656"
+                    }
+                },
+                {
+                    "_attributes": {
+                        "completionQuantity": "1",
+                        "id": "sid-65A18CA5-5D96-44E5-A967-2D2D7E5C29C1",
+                        "isForCompensation": "false",
+                        "name": "\"Rutschen\" auf sichtbare Fehler prüfen",
+                        "startQuantity": "1"
+                    },
+                    "documentation": {
+                        "_attributes": {
+                            "id": "sid-c8444377-f2b9-4a7c-a310-4f8e27eebac4"
+                        },
+                        "_text": "Kann ein Werkstück ohne Probleme in die Lagerstelle rutschen?\n"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": [
+                            {
+                                "_attributes": {
+                                    "metaKey": "bgcolor",
+                                    "metaValue": "#ffffcc"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "bordercolor",
+                                    "metaValue": "#000000"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "maximumduration",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "minimumduration",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "risklevel",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "externaldocuments",
+                                    "metaValue": ""
+                                }
+                            }
+                        ]
+                    },
+                    "incoming": {
+                        "_text": "sid-FF360ECE-BBFB-43F7-BEE8-17CF0C2AB656"
+                    },
+                    "outgoing": {
+                        "_text": "sid-5300A264-9A22-4D1A-AC5B-FDF96AE5F688"
+                    }
+                },
+                {
+                    "_attributes": {
+                        "completionQuantity": "1",
+                        "id": "sid-AE76E095-471D-4E00-A3B3-E622ED2FAFB4",
+                        "isForCompensation": "false",
+                        "name": "Farberkennung:\nKalibrierung überprüfen",
+                        "startQuantity": "1"
+                    },
+                    "documentation": {
+                        "_attributes": {
+                            "id": "sid-cb97aea6-c68c-4612-9861-957307292ab5"
+                        },
+                        "_text": "Ist der eingestellte gleich dem vorgeschriebenen Wert zur Farbunterscheidung?\n"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": [
+                            {
+                                "_attributes": {
+                                    "metaKey": "bgcolor",
+                                    "metaValue": "#ffffcc"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "bordercolor",
+                                    "metaValue": "#000000"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "maximumduration",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "minimumduration",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "risklevel",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "externaldocuments",
+                                    "metaValue": ""
+                                }
+                            }
+                        ]
+                    },
+                    "incoming": {
+                        "_text": "sid-A370E2D1-8414-4B4A-81AE-47C0E80407EA"
+                    },
+                    "outgoing": {
+                        "_text": "sid-C21124B8-00AD-479F-AC5E-83AC0BABC8A6"
+                    }
+                }
+            ],
+            "exclusiveGateway": [
+                {
+                    "_attributes": {
+                        "gatewayDirection": "Diverging",
+                        "id": "sid-CDF4235F-123C-46DB-9F12-8E58F6E517D8",
+                        "name": "Welchen Abschnitt möchten sie warten?"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": [
+                            {
+                                "_attributes": {
+                                    "metaKey": "bgcolor",
+                                    "metaValue": "#ffffff"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "bordercolor",
+                                    "metaValue": "#000000"
+                                }
+                            }
+                        ]
+                    },
+                    "incoming": {
+                        "_text": "sid-8C285D89-BFCF-4E00-8852-AB144F876382"
+                    },
+                    "outgoing": [
+                        {
+                            "_text": "sid-80A73984-7AE0-4B5A-93D5-23B0096A851A"
+                        },
+                        {
+                            "_text": "sid-12F2A018-ED24-408B-B13C-5A8743542601"
+                        }
+                    ]
+                },
+                {
+                    "_attributes": {
+                        "gatewayDirection": "Converging",
+                        "id": "sid-4D524C7C-8B8D-472F-A12B-C88CE0B428AB"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": [
+                            {
+                                "_attributes": {
+                                    "metaKey": "bgcolor",
+                                    "metaValue": "#ffffff"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "bordercolor",
+                                    "metaValue": "#000000"
+                                }
+                            }
+                        ]
+                    },
+                    "incoming": [
+                        {
+                            "_text": "sid-B6422F8F-8CD5-4D14-8337-682A1DDDDE22"
+                        },
+                        {
+                            "_text": "sid-5300A264-9A22-4D1A-AC5B-FDF96AE5F688"
+                        }
+                    ],
+                    "outgoing": {
+                        "_text": "sid-A370E2D1-8414-4B4A-81AE-47C0E80407EA"
+                    }
+                }
+            ],
+            "endEvent": {
+                "_attributes": {
+                    "id": "sid-932A964D-3742-4233-A723-D349757A838F"
+                },
+                "extensionElements": {
+                    "signavio:signavioMetaData": [
+                        {
+                            "_attributes": {
+                                "metaKey": "bgcolor",
+                                "metaValue": "#ffffff"
+                            }
+                        },
+                        {
+                            "_attributes": {
+                                "metaKey": "bordercolor",
+                                "metaValue": "#000000"
+                            }
+                        }
+                    ]
+                },
+                "incoming": {
+                    "_text": "sid-C21124B8-00AD-479F-AC5E-83AC0BABC8A6"
+                }
+            },
+            "sequenceFlow": [
+                {
+                    "_attributes": {
+                        "id": "sid-65C0CB57-DF10-4EB2-8AE4-18B5C36A5B0C",
+                        "sourceRef": "sid-53F5DB0B-2AE9-4DEB-B6DC-3242ED1EE62D",
+                        "targetRef": "sid-4CEA894F-3D25-4345-8985-398CE51CE768"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": {
+                            "_attributes": {
+                                "metaKey": "bordercolor",
+                                "metaValue": "#000000"
+                            }
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "sid-CA2932E0-8B5F-45D6-8DB5-F8AF99B40489",
+                        "sourceRef": "sid-4CEA894F-3D25-4345-8985-398CE51CE768",
+                        "targetRef": "sid-C76D0479-CA9E-4702-ACD0-094039D5F414"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": {
+                            "_attributes": {
+                                "metaKey": "bordercolor",
+                                "metaValue": "#000000"
+                            }
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "sid-8C285D89-BFCF-4E00-8852-AB144F876382",
+                        "sourceRef": "sid-C76D0479-CA9E-4702-ACD0-094039D5F414",
+                        "targetRef": "sid-CDF4235F-123C-46DB-9F12-8E58F6E517D8"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": {
+                            "_attributes": {
+                                "metaKey": "bordercolor",
+                                "metaValue": "#000000"
+                            }
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "sid-80A73984-7AE0-4B5A-93D5-23B0096A851A",
+                        "name": "Auswerfer",
+                        "sourceRef": "sid-CDF4235F-123C-46DB-9F12-8E58F6E517D8",
+                        "targetRef": "sid-F4A1F455-76A6-46CC-BDB7-775F00A4F9B4"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": {
+                            "_attributes": {
+                                "metaKey": "bordercolor",
+                                "metaValue": "#000000"
+                            }
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "sid-12F2A018-ED24-408B-B13C-5A8743542601",
+                        "name": "Lagerstellen",
+                        "sourceRef": "sid-CDF4235F-123C-46DB-9F12-8E58F6E517D8",
+                        "targetRef": "sid-268BD692-892A-4EFA-87E0-C25C785B020A"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": {
+                            "_attributes": {
+                                "metaKey": "bordercolor",
+                                "metaValue": "#000000"
+                            }
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "sid-FF360ECE-BBFB-43F7-BEE8-17CF0C2AB656",
+                        "sourceRef": "sid-268BD692-892A-4EFA-87E0-C25C785B020A",
+                        "targetRef": "sid-65A18CA5-5D96-44E5-A967-2D2D7E5C29C1"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": {
+                            "_attributes": {
+                                "metaKey": "bordercolor",
+                                "metaValue": "#000000"
+                            }
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "sid-B6422F8F-8CD5-4D14-8337-682A1DDDDE22",
+                        "sourceRef": "sid-F4A1F455-76A6-46CC-BDB7-775F00A4F9B4",
+                        "targetRef": "sid-4D524C7C-8B8D-472F-A12B-C88CE0B428AB"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": {
+                            "_attributes": {
+                                "metaKey": "bordercolor",
+                                "metaValue": "#000000"
+                            }
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "sid-5300A264-9A22-4D1A-AC5B-FDF96AE5F688",
+                        "sourceRef": "sid-65A18CA5-5D96-44E5-A967-2D2D7E5C29C1",
+                        "targetRef": "sid-4D524C7C-8B8D-472F-A12B-C88CE0B428AB"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": {
+                            "_attributes": {
+                                "metaKey": "bordercolor",
+                                "metaValue": "#000000"
+                            }
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "sid-A370E2D1-8414-4B4A-81AE-47C0E80407EA",
+                        "sourceRef": "sid-4D524C7C-8B8D-472F-A12B-C88CE0B428AB",
+                        "targetRef": "sid-AE76E095-471D-4E00-A3B3-E622ED2FAFB4"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": {
+                            "_attributes": {
+                                "metaKey": "bordercolor",
+                                "metaValue": "#000000"
+                            }
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "sid-C21124B8-00AD-479F-AC5E-83AC0BABC8A6",
+                        "sourceRef": "sid-AE76E095-471D-4E00-A3B3-E622ED2FAFB4",
+                        "targetRef": "sid-932A964D-3742-4233-A723-D349757A838F"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": {
+                            "_attributes": {
+                                "metaKey": "bordercolor",
+                                "metaValue": "#000000"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "bpmndi:BPMNDiagram": {
+            "_attributes": {
+                "id": "sid-83453a0c-50be-40bd-bc81-90e128ba6966"
+            },
+            "bpmndi:BPMNPlane": {
+                "_attributes": {
+                    "bpmnElement": "sid-cf544312-9f6a-4305-9d1e-7b3431ba1d39",
+                    "id": "sid-84473657-35e0-4d60-82d6-99e5f83596bc"
+                },
+                "bpmndi:BPMNShape": [
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-53F5DB0B-2AE9-4DEB-B6DC-3242ED1EE62D",
+                            "id": "sid-53F5DB0B-2AE9-4DEB-B6DC-3242ED1EE62D_gui"
+                        },
+                        "omgdc:Bounds": {
+                            "_attributes": {
+                                "height": "30.0",
+                                "width": "30.0",
+                                "x": "195.0",
+                                "y": "180.0"
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-4CEA894F-3D25-4345-8985-398CE51CE768",
+                            "id": "sid-4CEA894F-3D25-4345-8985-398CE51CE768_gui"
+                        },
+                        "omgdc:Bounds": {
+                            "_attributes": {
+                                "height": "80.0",
+                                "width": "100.0",
+                                "x": "270.0",
+                                "y": "155.0"
+                            }
+                        },
+                        "bpmndi:BPMNLabel": {
+                            "_attributes": {
+                                "labelStyle": "sid-9e48d10e-2955-4793-9ba7-d59f6aa49cf3"
+                            },
+                            "omgdc:Bounds": {
+                                "_attributes": {
+                                    "height": "24.0",
+                                    "width": "57.857147216796875",
+                                    "x": "291.07142639160156",
+                                    "y": "181.0"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-C76D0479-CA9E-4702-ACD0-094039D5F414",
+                            "id": "sid-C76D0479-CA9E-4702-ACD0-094039D5F414_gui"
+                        },
+                        "omgdc:Bounds": {
+                            "_attributes": {
+                                "height": "80.0",
+                                "width": "100.0",
+                                "x": "415.0",
+                                "y": "155.0"
+                            }
+                        },
+                        "bpmndi:BPMNLabel": {
+                            "_attributes": {
+                                "labelStyle": "sid-9e48d10e-2955-4793-9ba7-d59f6aa49cf3"
+                            },
+                            "omgdc:Bounds": {
+                                "_attributes": {
+                                    "height": "24.0",
+                                    "width": "54.0",
+                                    "x": "438.0",
+                                    "y": "181.0"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-CDF4235F-123C-46DB-9F12-8E58F6E517D8",
+                            "id": "sid-CDF4235F-123C-46DB-9F12-8E58F6E517D8_gui",
+                            "isMarkerVisible": "true"
+                        },
+                        "omgdc:Bounds": {
+                            "_attributes": {
+                                "height": "40.0",
+                                "width": "40.0",
+                                "x": "560.0",
+                                "y": "175.0"
+                            }
+                        },
+                        "bpmndi:BPMNLabel": {
+                            "_attributes": {
+                                "labelStyle": "sid-d880a3d4-4a1c-408d-a59c-c4b95471fcb0"
+                            },
+                            "omgdc:Bounds": {
+                                "_attributes": {
+                                    "height": "12.0",
+                                    "width": "217.54286193847656",
+                                    "x": "590.5",
+                                    "y": "205.5"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-F4A1F455-76A6-46CC-BDB7-775F00A4F9B4",
+                            "id": "sid-F4A1F455-76A6-46CC-BDB7-775F00A4F9B4_gui"
+                        },
+                        "omgdc:Bounds": {
+                            "_attributes": {
+                                "height": "80.0",
+                                "width": "100.0",
+                                "x": "645.0",
+                                "y": "50.0"
+                            }
+                        },
+                        "bpmndi:BPMNLabel": {
+                            "_attributes": {
+                                "labelStyle": "sid-9e48d10e-2955-4793-9ba7-d59f6aa49cf3"
+                            },
+                            "omgdc:Bounds": {
+                                "_attributes": {
+                                    "height": "36.0",
+                                    "width": "82.5428466796875",
+                                    "x": "653.7285766601562",
+                                    "y": "70.0"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-268BD692-892A-4EFA-87E0-C25C785B020A",
+                            "id": "sid-268BD692-892A-4EFA-87E0-C25C785B020A_gui"
+                        },
+                        "omgdc:Bounds": {
+                            "_attributes": {
+                                "height": "80.0",
+                                "width": "100.0",
+                                "x": "645.0",
+                                "y": "260.0"
+                            }
+                        },
+                        "bpmndi:BPMNLabel": {
+                            "_attributes": {
+                                "labelStyle": "sid-9e48d10e-2955-4793-9ba7-d59f6aa49cf3"
+                            },
+                            "omgdc:Bounds": {
+                                "_attributes": {
+                                    "height": "24.0",
+                                    "width": "81.0",
+                                    "x": "654.5",
+                                    "y": "286.0"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-65A18CA5-5D96-44E5-A967-2D2D7E5C29C1",
+                            "id": "sid-65A18CA5-5D96-44E5-A967-2D2D7E5C29C1_gui"
+                        },
+                        "omgdc:Bounds": {
+                            "_attributes": {
+                                "height": "80.0",
+                                "width": "100.0",
+                                "x": "790.0",
+                                "y": "260.0"
+                            }
+                        },
+                        "bpmndi:BPMNLabel": {
+                            "_attributes": {
+                                "labelStyle": "sid-9e48d10e-2955-4793-9ba7-d59f6aa49cf3"
+                            },
+                            "omgdc:Bounds": {
+                                "_attributes": {
+                                    "height": "36.0",
+                                    "width": "85.62857055664062",
+                                    "x": "797.1857147216797",
+                                    "y": "280.0"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-4D524C7C-8B8D-472F-A12B-C88CE0B428AB",
+                            "id": "sid-4D524C7C-8B8D-472F-A12B-C88CE0B428AB_gui",
+                            "isMarkerVisible": "true"
+                        },
+                        "omgdc:Bounds": {
+                            "_attributes": {
+                                "height": "40.0",
+                                "width": "40.0",
+                                "x": "975.0",
+                                "y": "175.0"
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-AE76E095-471D-4E00-A3B3-E622ED2FAFB4",
+                            "id": "sid-AE76E095-471D-4E00-A3B3-E622ED2FAFB4_gui"
+                        },
+                        "omgdc:Bounds": {
+                            "_attributes": {
+                                "height": "80.0",
+                                "width": "100.0",
+                                "x": "1060.0",
+                                "y": "155.0"
+                            }
+                        },
+                        "bpmndi:BPMNLabel": {
+                            "_attributes": {
+                                "labelStyle": "sid-9e48d10e-2955-4793-9ba7-d59f6aa49cf3"
+                            },
+                            "omgdc:Bounds": {
+                                "_attributes": {
+                                    "height": "36.0",
+                                    "width": "86.39999389648438",
+                                    "x": "1066.8000030517578",
+                                    "y": "175.0"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-932A964D-3742-4233-A723-D349757A838F",
+                            "id": "sid-932A964D-3742-4233-A723-D349757A838F_gui"
+                        },
+                        "omgdc:Bounds": {
+                            "_attributes": {
+                                "height": "28.0",
+                                "width": "28.0",
+                                "x": "1205.0",
+                                "y": "181.0"
+                            }
+                        }
+                    }
+                ],
+                "bpmndi:BPMNEdge": [
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-65C0CB57-DF10-4EB2-8AE4-18B5C36A5B0C",
+                            "id": "sid-65C0CB57-DF10-4EB2-8AE4-18B5C36A5B0C_gui"
+                        },
+                        "omgdi:waypoint": [
+                            {
+                                "_attributes": {
+                                    "x": "225.0",
+                                    "y": "195.0"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "270.0",
+                                    "y": "195.0"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-CA2932E0-8B5F-45D6-8DB5-F8AF99B40489",
+                            "id": "sid-CA2932E0-8B5F-45D6-8DB5-F8AF99B40489_gui"
+                        },
+                        "omgdi:waypoint": [
+                            {
+                                "_attributes": {
+                                    "x": "370.0",
+                                    "y": "195.0"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "415.0",
+                                    "y": "195.0"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-8C285D89-BFCF-4E00-8852-AB144F876382",
+                            "id": "sid-8C285D89-BFCF-4E00-8852-AB144F876382_gui"
+                        },
+                        "omgdi:waypoint": [
+                            {
+                                "_attributes": {
+                                    "x": "515.0",
+                                    "y": "195.21645021645023"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "560.0",
+                                    "y": "195.4112554112554"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-80A73984-7AE0-4B5A-93D5-23B0096A851A",
+                            "id": "sid-80A73984-7AE0-4B5A-93D5-23B0096A851A_gui"
+                        },
+                        "omgdi:waypoint": [
+                            {
+                                "_attributes": {
+                                    "x": "580.5",
+                                    "y": "175.0"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "580.5",
+                                    "y": "90.0"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "645.0",
+                                    "y": "90.0"
+                                }
+                            }
+                        ],
+                        "bpmndi:BPMNLabel": {
+                            "_attributes": {
+                                "labelStyle": "sid-d880a3d4-4a1c-408d-a59c-c4b95471fcb0"
+                            },
+                            "omgdc:Bounds": {
+                                "_attributes": {
+                                    "height": "54.77142333984375",
+                                    "width": "12.0",
+                                    "x": "560.5",
+                                    "y": "112.22857666015625"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-12F2A018-ED24-408B-B13C-5A8743542601",
+                            "id": "sid-12F2A018-ED24-408B-B13C-5A8743542601_gui"
+                        },
+                        "omgdi:waypoint": [
+                            {
+                                "_attributes": {
+                                    "x": "580.5",
+                                    "y": "215.0"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "580.5",
+                                    "y": "300.0"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "645.0",
+                                    "y": "300.0"
+                                }
+                            }
+                        ],
+                        "bpmndi:BPMNLabel": {
+                            "_attributes": {
+                                "labelStyle": "sid-d880a3d4-4a1c-408d-a59c-c4b95471fcb0"
+                            },
+                            "omgdc:Bounds": {
+                                "_attributes": {
+                                    "height": "64.79998779296875",
+                                    "width": "12.0",
+                                    "x": "560.5",
+                                    "y": "223.0"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-FF360ECE-BBFB-43F7-BEE8-17CF0C2AB656",
+                            "id": "sid-FF360ECE-BBFB-43F7-BEE8-17CF0C2AB656_gui"
+                        },
+                        "omgdi:waypoint": [
+                            {
+                                "_attributes": {
+                                    "x": "745.0",
+                                    "y": "300.0"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "790.0",
+                                    "y": "300.0"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-B6422F8F-8CD5-4D14-8337-682A1DDDDE22",
+                            "id": "sid-B6422F8F-8CD5-4D14-8337-682A1DDDDE22_gui"
+                        },
+                        "omgdi:waypoint": [
+                            {
+                                "_attributes": {
+                                    "x": "745.0",
+                                    "y": "90.0"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "995.5",
+                                    "y": "90.0"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "995.5",
+                                    "y": "175.0"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-5300A264-9A22-4D1A-AC5B-FDF96AE5F688",
+                            "id": "sid-5300A264-9A22-4D1A-AC5B-FDF96AE5F688_gui"
+                        },
+                        "omgdi:waypoint": [
+                            {
+                                "_attributes": {
+                                    "x": "890.0",
+                                    "y": "300.0"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "995.5",
+                                    "y": "300.0"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "995.5",
+                                    "y": "215.0"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-A370E2D1-8414-4B4A-81AE-47C0E80407EA",
+                            "id": "sid-A370E2D1-8414-4B4A-81AE-47C0E80407EA_gui"
+                        },
+                        "omgdi:waypoint": [
+                            {
+                                "_attributes": {
+                                    "x": "1015.0",
+                                    "y": "195.41484716157206"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "1060.0",
+                                    "y": "195.2183406113537"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-C21124B8-00AD-479F-AC5E-83AC0BABC8A6",
+                            "id": "sid-C21124B8-00AD-479F-AC5E-83AC0BABC8A6_gui"
+                        },
+                        "omgdi:waypoint": [
+                            {
+                                "_attributes": {
+                                    "x": "1160.0",
+                                    "y": "195.0"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "1205.0",
+                                    "y": "195.0"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bpmndi:BPMNLabelStyle": [
+                {
+                    "_attributes": {
+                        "id": "sid-d880a3d4-4a1c-408d-a59c-c4b95471fcb0"
+                    },
+                    "omgdc:Font": {
+                        "_attributes": {
+                            "isBold": "false",
+                            "isItalic": "false",
+                            "isStrikeThrough": "false",
+                            "isUnderline": "false",
+                            "name": "Arial",
+                            "size": "11.0"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "sid-9e48d10e-2955-4793-9ba7-d59f6aa49cf3"
+                    },
+                    "omgdc:Font": {
+                        "_attributes": {
+                            "isBold": "false",
+                            "isItalic": "false",
+                            "isStrikeThrough": "false",
+                            "isUnderline": "false",
+                            "name": "Arial",
+                            "size": "12.0"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

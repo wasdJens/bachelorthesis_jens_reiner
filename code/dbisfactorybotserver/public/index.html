@@ -1,0 +1,26 @@
+<html>
+  <body>
+    <form ref='uploadForm' 
+      id='uploadForm' 
+      action='http://localhost:4000/upload' 
+      method='post' 
+      encType="multipart/form-data">
+        <input type="file" name="process" />
+        <input type='submit' value='Upload!' />
+    </form>     
+
+    <form ref='parse'
+    id='parse'
+    action='http://localhost:4000/parse'
+    method='post'>
+      <input type="submit" value="Parse" />
+    </form>
+
+    <form ref='convert'
+    id='convert'
+    action='http://localhost:4000/convert'
+    method='post'>
+      <input type="submit" value="Convert" />
+    </form>
+  </body>
+</html>

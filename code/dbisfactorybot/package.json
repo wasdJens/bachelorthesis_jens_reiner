@@ -1,0 +1,28 @@
+{
+  "name": "dbisfactorybot",
+  "version": "0.0.9",
+  "description": "A botkit application for the dbisfactory",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "botkit": "^0.6.20",
+    "botkit-middleware-dialogflow": "^2.0.4",
+    "botkit-storage-mongo": "^1.0.6",
+    "botkit-studio-metrics": "0.0.4",
+    "debug": "^3.1.0",
+    "express": "^4.16.4",
+    "express-hbs": "^1.0.4",
+    "mongoose": "^4.13.7",
+    "node-env-file": "^0.1.8",
+    "node-fetch": "^2.3.0",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0",
+    "wordfilter": "^0.2.6"
+  },
+  "devDependencies": {},
+  "author": "Jens Reiner",
+  "license": "MIT"
+}

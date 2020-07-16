@@ -1,0 +1,984 @@
+{
+    "_declaration": {
+        "_attributes": {
+            "version": "1.0",
+            "encoding": "UTF-8"
+        }
+    },
+    "definitions": {
+        "_attributes": {
+            "xmlns": "http://www.omg.org/spec/BPMN/20100524/MODEL",
+            "xmlns:bpmndi": "http://www.omg.org/spec/BPMN/20100524/DI",
+            "xmlns:omgdc": "http://www.omg.org/spec/DD/20100524/DC",
+            "xmlns:omgdi": "http://www.omg.org/spec/DD/20100524/DI",
+            "xmlns:signavio": "http://www.signavio.com",
+            "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "exporter": "Signavio Process Editor, http://www.signavio.com",
+            "exporterVersion": "12.11.2",
+            "expressionLanguage": "http://www.w3.org/TR/XPath",
+            "id": "sid-2a726493-f5e5-411f-acca-45de798ed5f1",
+            "targetNamespace": "http://www.signavio.com",
+            "typeLanguage": "http://www.w3.org/2001/XMLSchema",
+            "xsi:schemaLocation": "http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd"
+        },
+        "process": {
+            "_attributes": {
+                "id": "sid-531ebf4e-27c6-4340-bcff-f88d9dedc89f",
+                "isClosed": "false",
+                "isExecutable": "false",
+                "processType": "None"
+            },
+            "extensionElements": {
+                "signavio:signavioDiagramMetaData": [
+                    {
+                        "_attributes": {
+                            "metaKey": "businessunit",
+                            "metaValue": ""
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "metaKey": "maximumduration",
+                            "metaValue": ""
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "metaKey": "iso9000ff",
+                            "metaValue": ""
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "metaKey": "minimumduration",
+                            "metaValue": ""
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "metaKey": "processowner",
+                            "metaValue": ""
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "metaKey": "processgoal",
+                            "metaValue": ""
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "metaKey": "soxrelevant",
+                            "metaValue": ""
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "metaKey": "revisionid",
+                            "metaValue": "7fbe3b9e31f0486aaf6c20eea7cc4f1b"
+                        }
+                    }
+                ]
+            },
+            "startEvent": {
+                "_attributes": {
+                    "id": "sid-79C445F9-C1E6-491D-B4ED-B43AA73FAD7F"
+                },
+                "extensionElements": {
+                    "signavio:signavioMetaData": [
+                        {
+                            "_attributes": {
+                                "metaKey": "bgcolor",
+                                "metaValue": "#ffffff"
+                            }
+                        },
+                        {
+                            "_attributes": {
+                                "metaKey": "bordercolor",
+                                "metaValue": "#000000"
+                            }
+                        }
+                    ]
+                },
+                "outgoing": {
+                    "_text": "sid-8E0FE584-1998-4A0A-96E5-C555F1788874"
+                }
+            },
+            "task": [
+                {
+                    "_attributes": {
+                        "completionQuantity": "1",
+                        "id": "sid-340B647D-B942-4CBF-BC62-317AD9F96B9E",
+                        "isForCompensation": "false",
+                        "name": "Sichtprüfung durchführen",
+                        "startQuantity": "1"
+                    },
+                    "documentation": {
+                        "_attributes": {
+                            "id": "sid-564ef4d2-2474-4931-992f-e002873e3c7a"
+                        },
+                        "_text": "Verkabelung überprüfen.Ist der Vakuumgreifer korrekt mit dem TXT Kontroller verbunden?\n"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": [
+                            {
+                                "_attributes": {
+                                    "metaKey": "bgcolor",
+                                    "metaValue": "#ffffcc"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "bordercolor",
+                                    "metaValue": "#000000"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "maximumduration",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "minimumduration",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "risklevel",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "externaldocuments",
+                                    "metaValue": "[]"
+                                }
+                            }
+                        ]
+                    },
+                    "incoming": {
+                        "_text": "sid-8E0FE584-1998-4A0A-96E5-C555F1788874"
+                    },
+                    "outgoing": {
+                        "_text": "sid-156D4F55-3923-4FA6-8031-E1B4FE9A8DC6"
+                    }
+                },
+                {
+                    "_attributes": {
+                        "completionQuantity": "1",
+                        "id": "sid-6C4BDBAB-B07D-4BD9-B999-A74857D1D936",
+                        "isForCompensation": "false",
+                        "name": "Spannzangen und Zangenmuttern sind fest angezogen",
+                        "startQuantity": "1"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": [
+                            {
+                                "_attributes": {
+                                    "metaKey": "bgcolor",
+                                    "metaValue": "#ffffcc"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "bordercolor",
+                                    "metaValue": "#000000"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "maximumduration",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "minimumduration",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "risklevel",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "externaldocuments",
+                                    "metaValue": "[]"
+                                }
+                            }
+                        ]
+                    },
+                    "incoming": {
+                        "_text": "sid-156D4F55-3923-4FA6-8031-E1B4FE9A8DC6"
+                    },
+                    "outgoing": {
+                        "_text": "sid-C3160986-1D07-4C66-A081-36F2C16A3246"
+                    }
+                },
+                {
+                    "_attributes": {
+                        "completionQuantity": "1",
+                        "id": "sid-0A14461C-4F84-4E82-ACDA-CCE7B09B8705",
+                        "isForCompensation": "false",
+                        "name": "Schnecken fetten",
+                        "startQuantity": "1"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": [
+                            {
+                                "_attributes": {
+                                    "metaKey": "bgcolor",
+                                    "metaValue": "#ffffcc"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "bordercolor",
+                                    "metaValue": "#000000"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "maximumduration",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "minimumduration",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "risklevel",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "externaldocuments",
+                                    "metaValue": "[]"
+                                }
+                            }
+                        ]
+                    },
+                    "incoming": {
+                        "_text": "sid-045F5A67-E623-4EF0-BE69-02D43B89222D"
+                    },
+                    "outgoing": {
+                        "_text": "sid-C2B1EEF8-9204-4491-B9B6-C9977EE7FFAB"
+                    }
+                },
+                {
+                    "_attributes": {
+                        "completionQuantity": "1",
+                        "id": "sid-D4BE0DB5-ED38-4578-8A35-1A7EC953F397",
+                        "isForCompensation": "false",
+                        "name": "Greifer kann ein Werkstück halten",
+                        "startQuantity": "1"
+                    },
+                    "documentation": {
+                        "_attributes": {
+                            "id": "sid-d0a80f20-38ba-4efc-97b0-bbf28aaaf5de"
+                        },
+                        "_text": "Verliert der Greifer ein Werkstück beim Transport überprüfen sie, ob das Werkstück sauber ist und ggf. befeuchten sie den Saugnapf.\n"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": [
+                            {
+                                "_attributes": {
+                                    "metaKey": "bgcolor",
+                                    "metaValue": "#ffffcc"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "bordercolor",
+                                    "metaValue": "#000000"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "maximumduration",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "minimumduration",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "risklevel",
+                                    "metaValue": ""
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "externaldocuments",
+                                    "metaValue": ""
+                                }
+                            }
+                        ]
+                    },
+                    "incoming": {
+                        "_text": "sid-0CA8FF57-A75C-4E8F-8CED-BF52A04259E1"
+                    },
+                    "outgoing": {
+                        "_text": "sid-54BFEB64-57F5-4E4A-AABB-2042405B052E"
+                    }
+                }
+            ],
+            "exclusiveGateway": [
+                {
+                    "_attributes": {
+                        "gatewayDirection": "Diverging",
+                        "id": "sid-DBA84B59-391B-45C6-94D3-2BFE56236C5D",
+                        "name": "Fettung benötigt?"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": [
+                            {
+                                "_attributes": {
+                                    "metaKey": "bgcolor",
+                                    "metaValue": "#ffffff"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "bordercolor",
+                                    "metaValue": "#000000"
+                                }
+                            }
+                        ]
+                    },
+                    "incoming": {
+                        "_text": "sid-C3160986-1D07-4C66-A081-36F2C16A3246"
+                    },
+                    "outgoing": [
+                        {
+                            "_text": "sid-045F5A67-E623-4EF0-BE69-02D43B89222D"
+                        },
+                        {
+                            "_text": "sid-AE651596-AE4F-483C-AD65-CC3C8CA16F8E"
+                        }
+                    ]
+                },
+                {
+                    "_attributes": {
+                        "gatewayDirection": "Converging",
+                        "id": "sid-2411E806-AA14-4957-913B-625E59E784B6"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": [
+                            {
+                                "_attributes": {
+                                    "metaKey": "bgcolor",
+                                    "metaValue": "#ffffff"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "metaKey": "bordercolor",
+                                    "metaValue": "#000000"
+                                }
+                            }
+                        ]
+                    },
+                    "incoming": [
+                        {
+                            "_text": "sid-C2B1EEF8-9204-4491-B9B6-C9977EE7FFAB"
+                        },
+                        {
+                            "_text": "sid-AE651596-AE4F-483C-AD65-CC3C8CA16F8E"
+                        }
+                    ],
+                    "outgoing": {
+                        "_text": "sid-0CA8FF57-A75C-4E8F-8CED-BF52A04259E1"
+                    }
+                }
+            ],
+            "endEvent": {
+                "_attributes": {
+                    "id": "sid-2A251520-7553-4734-B2A3-38FE07594105"
+                },
+                "extensionElements": {
+                    "signavio:signavioMetaData": [
+                        {
+                            "_attributes": {
+                                "metaKey": "bgcolor",
+                                "metaValue": "#ffffff"
+                            }
+                        },
+                        {
+                            "_attributes": {
+                                "metaKey": "bordercolor",
+                                "metaValue": "#000000"
+                            }
+                        }
+                    ]
+                },
+                "incoming": {
+                    "_text": "sid-54BFEB64-57F5-4E4A-AABB-2042405B052E"
+                }
+            },
+            "sequenceFlow": [
+                {
+                    "_attributes": {
+                        "id": "sid-8E0FE584-1998-4A0A-96E5-C555F1788874",
+                        "sourceRef": "sid-79C445F9-C1E6-491D-B4ED-B43AA73FAD7F",
+                        "targetRef": "sid-340B647D-B942-4CBF-BC62-317AD9F96B9E"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": {
+                            "_attributes": {
+                                "metaKey": "bordercolor",
+                                "metaValue": "#000000"
+                            }
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "sid-156D4F55-3923-4FA6-8031-E1B4FE9A8DC6",
+                        "sourceRef": "sid-340B647D-B942-4CBF-BC62-317AD9F96B9E",
+                        "targetRef": "sid-6C4BDBAB-B07D-4BD9-B999-A74857D1D936"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": {
+                            "_attributes": {
+                                "metaKey": "bordercolor",
+                                "metaValue": "#000000"
+                            }
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "sid-C3160986-1D07-4C66-A081-36F2C16A3246",
+                        "sourceRef": "sid-6C4BDBAB-B07D-4BD9-B999-A74857D1D936",
+                        "targetRef": "sid-DBA84B59-391B-45C6-94D3-2BFE56236C5D"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": {
+                            "_attributes": {
+                                "metaKey": "bordercolor",
+                                "metaValue": "#000000"
+                            }
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "sid-045F5A67-E623-4EF0-BE69-02D43B89222D",
+                        "name": "Ja",
+                        "sourceRef": "sid-DBA84B59-391B-45C6-94D3-2BFE56236C5D",
+                        "targetRef": "sid-0A14461C-4F84-4E82-ACDA-CCE7B09B8705"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": {
+                            "_attributes": {
+                                "metaKey": "bordercolor",
+                                "metaValue": "#000000"
+                            }
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "sid-C2B1EEF8-9204-4491-B9B6-C9977EE7FFAB",
+                        "sourceRef": "sid-0A14461C-4F84-4E82-ACDA-CCE7B09B8705",
+                        "targetRef": "sid-2411E806-AA14-4957-913B-625E59E784B6"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": {
+                            "_attributes": {
+                                "metaKey": "bordercolor",
+                                "metaValue": "#000000"
+                            }
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "sid-AE651596-AE4F-483C-AD65-CC3C8CA16F8E",
+                        "name": "Nein",
+                        "sourceRef": "sid-DBA84B59-391B-45C6-94D3-2BFE56236C5D",
+                        "targetRef": "sid-2411E806-AA14-4957-913B-625E59E784B6"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": {
+                            "_attributes": {
+                                "metaKey": "bordercolor",
+                                "metaValue": "#000000"
+                            }
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "sid-0CA8FF57-A75C-4E8F-8CED-BF52A04259E1",
+                        "sourceRef": "sid-2411E806-AA14-4957-913B-625E59E784B6",
+                        "targetRef": "sid-D4BE0DB5-ED38-4578-8A35-1A7EC953F397"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": {
+                            "_attributes": {
+                                "metaKey": "bordercolor",
+                                "metaValue": "#000000"
+                            }
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "sid-54BFEB64-57F5-4E4A-AABB-2042405B052E",
+                        "sourceRef": "sid-D4BE0DB5-ED38-4578-8A35-1A7EC953F397",
+                        "targetRef": "sid-2A251520-7553-4734-B2A3-38FE07594105"
+                    },
+                    "extensionElements": {
+                        "signavio:signavioMetaData": {
+                            "_attributes": {
+                                "metaKey": "bordercolor",
+                                "metaValue": "#000000"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "bpmndi:BPMNDiagram": {
+            "_attributes": {
+                "id": "sid-c1433951-3ee2-4210-891f-4307f709d2ac"
+            },
+            "bpmndi:BPMNPlane": {
+                "_attributes": {
+                    "bpmnElement": "sid-531ebf4e-27c6-4340-bcff-f88d9dedc89f",
+                    "id": "sid-1931e30a-4f7a-4ae0-87a0-3379d586e306"
+                },
+                "bpmndi:BPMNShape": [
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-79C445F9-C1E6-491D-B4ED-B43AA73FAD7F",
+                            "id": "sid-79C445F9-C1E6-491D-B4ED-B43AA73FAD7F_gui"
+                        },
+                        "omgdc:Bounds": {
+                            "_attributes": {
+                                "height": "30.0",
+                                "width": "30.0",
+                                "x": "150.0",
+                                "y": "150.0"
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-340B647D-B942-4CBF-BC62-317AD9F96B9E",
+                            "id": "sid-340B647D-B942-4CBF-BC62-317AD9F96B9E_gui"
+                        },
+                        "omgdc:Bounds": {
+                            "_attributes": {
+                                "height": "80.0",
+                                "width": "100.0",
+                                "x": "225.0",
+                                "y": "125.0"
+                            }
+                        },
+                        "bpmndi:BPMNLabel": {
+                            "_attributes": {
+                                "labelStyle": "sid-62c0a09d-59a8-41bd-b164-bf7691db024f"
+                            },
+                            "omgdc:Bounds": {
+                                "_attributes": {
+                                    "height": "24.0",
+                                    "width": "70.19999694824219",
+                                    "x": "239.9000015258789",
+                                    "y": "151.0"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-6C4BDBAB-B07D-4BD9-B999-A74857D1D936",
+                            "id": "sid-6C4BDBAB-B07D-4BD9-B999-A74857D1D936_gui"
+                        },
+                        "omgdc:Bounds": {
+                            "_attributes": {
+                                "height": "80.0",
+                                "width": "100.0",
+                                "x": "370.0",
+                                "y": "125.0"
+                            }
+                        },
+                        "bpmndi:BPMNLabel": {
+                            "_attributes": {
+                                "labelStyle": "sid-62c0a09d-59a8-41bd-b164-bf7691db024f"
+                            },
+                            "omgdc:Bounds": {
+                                "_attributes": {
+                                    "height": "60.0",
+                                    "width": "84.85714721679688",
+                                    "x": "377.57142639160156",
+                                    "y": "133.0"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-DBA84B59-391B-45C6-94D3-2BFE56236C5D",
+                            "id": "sid-DBA84B59-391B-45C6-94D3-2BFE56236C5D_gui",
+                            "isMarkerVisible": "true"
+                        },
+                        "omgdc:Bounds": {
+                            "_attributes": {
+                                "height": "40.0",
+                                "width": "40.0",
+                                "x": "515.0",
+                                "y": "145.0"
+                            }
+                        },
+                        "bpmndi:BPMNLabel": {
+                            "_attributes": {
+                                "labelStyle": "sid-26b1bf93-b482-467a-bd20-3c2013557f61"
+                            },
+                            "omgdc:Bounds": {
+                                "_attributes": {
+                                    "height": "12.0",
+                                    "width": "97.971435546875",
+                                    "x": "545.5",
+                                    "y": "175.5"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-0A14461C-4F84-4E82-ACDA-CCE7B09B8705",
+                            "id": "sid-0A14461C-4F84-4E82-ACDA-CCE7B09B8705_gui"
+                        },
+                        "omgdc:Bounds": {
+                            "_attributes": {
+                                "height": "80.0",
+                                "width": "100.0",
+                                "x": "570.0",
+                                "y": "30.0"
+                            }
+                        },
+                        "bpmndi:BPMNLabel": {
+                            "_attributes": {
+                                "labelStyle": "sid-62c0a09d-59a8-41bd-b164-bf7691db024f"
+                            },
+                            "omgdc:Bounds": {
+                                "_attributes": {
+                                    "height": "24.0",
+                                    "width": "57.857147216796875",
+                                    "x": "591.0714263916016",
+                                    "y": "56.0"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-2411E806-AA14-4957-913B-625E59E784B6",
+                            "id": "sid-2411E806-AA14-4957-913B-625E59E784B6_gui",
+                            "isMarkerVisible": "true"
+                        },
+                        "omgdc:Bounds": {
+                            "_attributes": {
+                                "height": "40.0",
+                                "width": "40.0",
+                                "x": "715.0",
+                                "y": "145.0"
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-D4BE0DB5-ED38-4578-8A35-1A7EC953F397",
+                            "id": "sid-D4BE0DB5-ED38-4578-8A35-1A7EC953F397_gui"
+                        },
+                        "omgdc:Bounds": {
+                            "_attributes": {
+                                "height": "80.0",
+                                "width": "100.0",
+                                "x": "800.0",
+                                "y": "125.0"
+                            }
+                        },
+                        "bpmndi:BPMNLabel": {
+                            "_attributes": {
+                                "labelStyle": "sid-62c0a09d-59a8-41bd-b164-bf7691db024f"
+                            },
+                            "omgdc:Bounds": {
+                                "_attributes": {
+                                    "height": "36.0",
+                                    "width": "85.62857055664062",
+                                    "x": "807.1857147216797",
+                                    "y": "145.0"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-2A251520-7553-4734-B2A3-38FE07594105",
+                            "id": "sid-2A251520-7553-4734-B2A3-38FE07594105_gui"
+                        },
+                        "omgdc:Bounds": {
+                            "_attributes": {
+                                "height": "28.0",
+                                "width": "28.0",
+                                "x": "945.0",
+                                "y": "151.0"
+                            }
+                        }
+                    }
+                ],
+                "bpmndi:BPMNEdge": [
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-8E0FE584-1998-4A0A-96E5-C555F1788874",
+                            "id": "sid-8E0FE584-1998-4A0A-96E5-C555F1788874_gui"
+                        },
+                        "omgdi:waypoint": [
+                            {
+                                "_attributes": {
+                                    "x": "180.0",
+                                    "y": "165.0"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "225.0",
+                                    "y": "165.0"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-156D4F55-3923-4FA6-8031-E1B4FE9A8DC6",
+                            "id": "sid-156D4F55-3923-4FA6-8031-E1B4FE9A8DC6_gui"
+                        },
+                        "omgdi:waypoint": [
+                            {
+                                "_attributes": {
+                                    "x": "325.0",
+                                    "y": "165.0"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "370.0",
+                                    "y": "165.0"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-C3160986-1D07-4C66-A081-36F2C16A3246",
+                            "id": "sid-C3160986-1D07-4C66-A081-36F2C16A3246_gui"
+                        },
+                        "omgdi:waypoint": [
+                            {
+                                "_attributes": {
+                                    "x": "470.0",
+                                    "y": "165.21645021645023"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "515.0",
+                                    "y": "165.4112554112554"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-045F5A67-E623-4EF0-BE69-02D43B89222D",
+                            "id": "sid-045F5A67-E623-4EF0-BE69-02D43B89222D_gui"
+                        },
+                        "omgdi:waypoint": [
+                            {
+                                "_attributes": {
+                                    "x": "535.5",
+                                    "y": "145.0"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "535.5",
+                                    "y": "70.0"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "570.0",
+                                    "y": "70.0"
+                                }
+                            }
+                        ],
+                        "bpmndi:BPMNLabel": {
+                            "_attributes": {
+                                "labelStyle": "sid-26b1bf93-b482-467a-bd20-3c2013557f61"
+                            },
+                            "omgdc:Bounds": {
+                                "_attributes": {
+                                    "height": "10.79998779296875",
+                                    "width": "12.0",
+                                    "x": "515.5",
+                                    "y": "126.20001220703125"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-C2B1EEF8-9204-4491-B9B6-C9977EE7FFAB",
+                            "id": "sid-C2B1EEF8-9204-4491-B9B6-C9977EE7FFAB_gui"
+                        },
+                        "omgdi:waypoint": [
+                            {
+                                "_attributes": {
+                                    "x": "670.0",
+                                    "y": "70.0"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "735.5",
+                                    "y": "70.0"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "735.5",
+                                    "y": "145.0"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-AE651596-AE4F-483C-AD65-CC3C8CA16F8E",
+                            "id": "sid-AE651596-AE4F-483C-AD65-CC3C8CA16F8E_gui"
+                        },
+                        "omgdi:waypoint": [
+                            {
+                                "_attributes": {
+                                    "x": "555.0",
+                                    "y": "165.5"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "715.0",
+                                    "y": "165.5"
+                                }
+                            }
+                        ],
+                        "bpmndi:BPMNLabel": {
+                            "_attributes": {
+                                "labelStyle": "sid-26b1bf93-b482-467a-bd20-3c2013557f61"
+                            },
+                            "omgdc:Bounds": {
+                                "_attributes": {
+                                    "height": "12.0",
+                                    "width": "23.14288330078125",
+                                    "x": "563.0",
+                                    "y": "145.5"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-0CA8FF57-A75C-4E8F-8CED-BF52A04259E1",
+                            "id": "sid-0CA8FF57-A75C-4E8F-8CED-BF52A04259E1_gui"
+                        },
+                        "omgdi:waypoint": [
+                            {
+                                "_attributes": {
+                                    "x": "755.0",
+                                    "y": "165.41484716157206"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "800.0",
+                                    "y": "165.2183406113537"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "_attributes": {
+                            "bpmnElement": "sid-54BFEB64-57F5-4E4A-AABB-2042405B052E",
+                            "id": "sid-54BFEB64-57F5-4E4A-AABB-2042405B052E_gui"
+                        },
+                        "omgdi:waypoint": [
+                            {
+                                "_attributes": {
+                                    "x": "900.0",
+                                    "y": "165.0"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "x": "945.0",
+                                    "y": "165.0"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bpmndi:BPMNLabelStyle": [
+                {
+                    "_attributes": {
+                        "id": "sid-26b1bf93-b482-467a-bd20-3c2013557f61"
+                    },
+                    "omgdc:Font": {
+                        "_attributes": {
+                            "isBold": "false",
+                            "isItalic": "false",
+                            "isStrikeThrough": "false",
+                            "isUnderline": "false",
+                            "name": "Arial",
+                            "size": "11.0"
+                        }
+                    }
+                },
+                {
+                    "_attributes": {
+                        "id": "sid-62c0a09d-59a8-41bd-b164-bf7691db024f"
+                    },
+                    "omgdc:Font": {
+                        "_attributes": {
+                            "isBold": "false",
+                            "isItalic": "false",
+                            "isStrikeThrough": "false",
+                            "isUnderline": "false",
+                            "name": "Arial",
+                            "size": "12.0"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

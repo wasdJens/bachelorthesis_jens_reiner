@@ -1,0 +1,17 @@
+{
+  "name": "dbisfactorybotserver",
+  "version": "1.0.1",
+  "description": "Node server for the dbis factory",
+  "main": "parse.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Jens Reiner",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.0.0",
+    "xml-js": "^1.6.11"
+  }
+}
